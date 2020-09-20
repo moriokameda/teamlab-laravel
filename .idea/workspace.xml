@@ -10,11 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b046342e-364d-4a8b-959b-fb97bbabe043" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/infra/nginx/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="b046342e-364d-4a8b-959b-fb97bbabe043" name="デフォルト変更リスト" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600616348217</updated>
       <workItem from="1600616350247" duration="41000" />
-      <workItem from="1600616509385" duration="1817000" />
+      <workItem from="1600616509385" duration="1967000" />
     </task>
     <servers />
   </component>
