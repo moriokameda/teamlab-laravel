@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b046342e-364d-4a8b-959b-fb97bbabe043" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/infra/php/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/php/php.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/nginx/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="docker-compose.yml: Compose デプロイメント" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose デプロイメント" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600616348217</updated>
       <workItem from="1600616350247" duration="41000" />
-      <workItem from="1600616509385" duration="586000" />
+      <workItem from="1600616509385" duration="1817000" />
     </task>
     <servers />
   </component>
