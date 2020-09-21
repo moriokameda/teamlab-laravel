@@ -7,6 +7,9 @@ COPY --from=composer:1.10 /usr/bin/composer /usr/bin/composer
 
 RUN apt-get update && \
     apt-get -y install git unzip libzip-dev libicu-dev libonig-dev && \
+    apt-get install -y nodejs && \
+    apt-get install -y npm && \
+    update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     docker-php-ext-install intl pdo_mysql zip bcmath

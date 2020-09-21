@@ -10,7 +10,33 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b046342e-364d-4a8b-959b-fb97bbabe043" name="デフォルト変更リスト" comment="" />
+    <list default="true" id="b046342e-364d-4a8b-959b-fb97bbabe043" name="デフォルト変更リスト" comment="">
+      <change afterPath="$PROJECT_DIR$/infra/mysql/my.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/nginx/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/infra/php/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,20 +48,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectId" id="1hmVdyF8mtwBZNkSJNVp9NpGBma" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker-compose.yml.db: Compose デプロイメント">
     <configuration name="docker-compose.yml: Compose デプロイメント" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings>
@@ -44,8 +72,22 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml.db: Compose デプロイメント" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml.db: Compose デプロイメント" />
         <item itemvalue="Docker.docker-compose.yml: Compose デプロイメント" />
       </list>
     </recent_temporary>
@@ -59,7 +101,8 @@
       <option name="presentableId" value="Default" />
       <updated>1600616348217</updated>
       <workItem from="1600616350247" duration="41000" />
-      <workItem from="1600616509385" duration="1967000" />
+      <workItem from="1600616509385" duration="9200000" />
+      <workItem from="1600679334625" duration="10612000" />
     </task>
     <servers />
   </component>
@@ -76,15 +119,41 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="638" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600616648035">
-      <screen x="40" y="23" width="1752" height="1097" />
+    <state x="639" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600620028101">
+      <screen x="42" y="23" width="1750" height="1097" />
     </state>
     <state x="638" y="380" key="#com.intellij.fileTypes.FileTypeChooser/40.23.1752.1097@40.23.1752.1097" timestamp="1600616648035" />
-    <state x="417" y="210" key="SettingsEditor" timestamp="1600616380661">
+    <state x="639" y="380" key="#com.intellij.fileTypes.FileTypeChooser/42.23.1750.1097@42.23.1750.1097" timestamp="1600620028101" />
+    <state width="1710" height="303" key="GridCell.Tab.0.bottom" timestamp="1600687540349">
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
-    <state x="417" y="210" key="SettingsEditor/40.23.1752.1097@40.23.1752.1097" timestamp="1600616380661" />
+    <state width="1710" height="303" key="GridCell.Tab.0.bottom/40.23.1752.1097@40.23.1752.1097" timestamp="1600687540349" />
+    <state width="1710" height="303" key="GridCell.Tab.0.center" timestamp="1600687540348">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1710" height="303" key="GridCell.Tab.0.center/40.23.1752.1097@40.23.1752.1097" timestamp="1600687540348" />
+    <state width="1710" height="303" key="GridCell.Tab.0.left" timestamp="1600687540348">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1710" height="303" key="GridCell.Tab.0.left/40.23.1752.1097@40.23.1752.1097" timestamp="1600687540348" />
+    <state width="1710" height="303" key="GridCell.Tab.0.right" timestamp="1600687540349">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1710" height="303" key="GridCell.Tab.0.right/40.23.1752.1097@40.23.1752.1097" timestamp="1600687540349" />
+    <state x="417" y="210" key="SettingsEditor" timestamp="1600679319493">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state x="417" y="210" key="SettingsEditor/40.23.1752.1097@40.23.1752.1097" timestamp="1600679319493" />
+    <state x="592" y="204" width="647" height="735" key="find.popup" timestamp="1600695618893">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state x="592" y="204" width="647" height="735" key="find.popup/40.23.1752.1097@40.23.1752.1097" timestamp="1600695618893" />
+    <state x="665" y="452" width="638" height="444" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1600670696376">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state x="665" y="452" width="638" height="444" key="org.intellij.images.editor.actions.BackgroundImageDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1600670696376" />
   </component>
 </project>
